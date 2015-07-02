@@ -20,6 +20,7 @@ while True:
         break
     # run math equation according to list values
     else:
+        # need to provide option for just one argument/input/integer
         int1, int2 = int(tokens[1]), int(tokens[2])
         if tokens[0] == "+":
             result = add(int1, int2)
